@@ -1,17 +1,22 @@
+$font-color: #ff66cc;
+
 body {
-    background-color: #333333;
-    color: white;
     font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: $font-color;
 }
 
 h1 {
     text-align: center;
+    color: $font-color;
 }
 
 p {
     text-align: center;
+    color: $font-color;
 }
 
 h2 {
     text-align: center;
+    color: $font-color;
 }
