@@ -20,3 +20,20 @@ h2 {
     text-align: center;
     color: $font-color;
 }
+
+article {
+    background-color: #444;
+    padding: 30px;
+    margin: 30px auto;
+    width: 300px;
+    text-align: center;
+
+    p {
+        color: white;
+        font-size: 20px;
+    }
+
+    &:hover {
+        background-color: #777;
+    }
+}
